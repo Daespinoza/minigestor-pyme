@@ -1,0 +1,59 @@
+/* estilo-base.css */
+
+/* Restablecer márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer una fuente base para todo el documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para los encabezados */
+h1, h2, h3 {
+    margin-bottom: 0.5em;
+    color: #2c3e50;
+}
+
+/* Estilo para los párrafos */
+p {
+    margin-bottom: 1em;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
